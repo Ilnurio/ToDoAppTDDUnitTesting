@@ -24,6 +24,8 @@
 		4674DEF22AC1ED7600C239A5 /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4674DEF12AC1ED7600C239A5 /* LocationTests.swift */; };
 		4688FCF02AC329B100507EBE /* TaskManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688FCEF2AC329B100507EBE /* TaskManagerTests.swift */; };
 		4688FCF32AC32B3600507EBE /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688FCF22AC32B3600507EBE /* TaskManager.swift */; };
+		468976672ACB1B4700C1F091 /* DetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468976662ACB1B4700C1F091 /* DetailViewControllerTests.swift */; };
+		468976692ACB1CE500C1F091 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468976682ACB1CE500C1F091 /* DetailViewController.swift */; };
 		46B9F11D2AC47BBC0028ECBC /* TaskListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B9F11C2AC47BBC0028ECBC /* TaskListViewControllerTests.swift */; };
 		46B9F11F2AC4842E0028ECBC /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B9F11E2AC4842E0028ECBC /* DataProvider.swift */; };
 		46B9F1212AC489CF0028ECBC /* DataProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B9F1202AC489CF0028ECBC /* DataProviderTests.swift */; };
@@ -69,6 +71,8 @@
 		4674DEF12AC1ED7600C239A5 /* LocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
 		4688FCEF2AC329B100507EBE /* TaskManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerTests.swift; sourceTree = "<group>"; };
 		4688FCF22AC32B3600507EBE /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+		468976662ACB1B4700C1F091 /* DetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerTests.swift; sourceTree = "<group>"; };
+		468976682ACB1CE500C1F091 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		46B9F11C2AC47BBC0028ECBC /* TaskListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewControllerTests.swift; sourceTree = "<group>"; };
 		46B9F11E2AC4842E0028ECBC /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		46B9F1202AC489CF0028ECBC /* DataProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProviderTests.swift; sourceTree = "<group>"; };
@@ -169,6 +173,7 @@
 			children = (
 				4601C4162ABDF26800020B90 /* TaskListViewController.swift */,
 				46B9F11E2AC4842E0028ECBC /* DataProvider.swift */,
+				468976682ACB1CE500C1F091 /* DetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -238,6 +243,7 @@
 			children = (
 				46B9F11C2AC47BBC0028ECBC /* TaskListViewControllerTests.swift */,
 				46B9F1202AC489CF0028ECBC /* DataProviderTests.swift */,
+				468976662ACB1B4700C1F091 /* DetailViewControllerTests.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -373,6 +379,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				468976692ACB1CE500C1F091 /* DetailViewController.swift in Sources */,
 				4688FCF32AC32B3600507EBE /* TaskManager.swift in Sources */,
 				4674DEED2AC1DF3C00C239A5 /* Task.swift in Sources */,
 				4601C4172ABDF26800020B90 /* TaskListViewController.swift in Sources */,
@@ -394,6 +401,7 @@
 				46B9F1212AC489CF0028ECBC /* DataProviderTests.swift in Sources */,
 				4688FCF02AC329B100507EBE /* TaskManagerTests.swift in Sources */,
 				46B9F11D2AC47BBC0028ECBC /* TaskListViewControllerTests.swift in Sources */,
+				468976672ACB1B4700C1F091 /* DetailViewControllerTests.swift in Sources */,
 				4601C42A2ABDF26900020B90 /* ToDoAppTDDUnitTestingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
