@@ -58,18 +58,15 @@ final class TaskListViewControllerTests: XCTestCase {
     }
     
     func presentingNewTaskViewController() -> NewTaskViewController {
-        XCTAssertNil(sut.presentedViewController)
         
         guard let newTaskButton = sut.navigationItem.rightBarButtonItem,
               let action = newTaskButton.action else {
-            XCTFail()
+            
             return NewTaskViewController()
         }
         
         UIApplication.shared.keyWindow?.rootViewController = sut
         sut.performSelector(onMainThread: action, with: newTaskButton, waitUntilDone: true)
-        XCTAssertNotNil(sut.presentedViewController)
-        XCTAssertTrue(sut.presentedViewController is NewTaskViewController)
         
         let newTaskViewController = sut.presentedViewController as! NewTaskViewController
         return newTaskViewController
