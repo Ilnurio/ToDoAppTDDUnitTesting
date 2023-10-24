@@ -154,7 +154,7 @@
 				462224B82AC72EFD007DC1F8 /* View */,
 				46B9F11B2AC47B890028ECBC /* Controller */,
 				4688FCEE2AC3298600507EBE /* Manager */,
-				4601C4292ABDF26900020B90 /* ToDoAppTDDUnitTestingTests.swift */,
+				461ED9022AE6B31F00E1E596 /* Supporting files */,
 				4674DEEB2AC1DE6300C239A5 /* Model */,
 			);
 			path = ToDoAppTDDUnitTestingTests;
@@ -206,6 +206,14 @@
 				4601C41B2ABDF26900020B90 /* Assets.xcassets */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		461ED9022AE6B31F00E1E596 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				4601C4292ABDF26900020B90 /* ToDoAppTDDUnitTestingTests.swift */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 		462224B82AC72EFD007DC1F8 /* View */ = {
