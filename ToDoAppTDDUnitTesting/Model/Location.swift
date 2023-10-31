@@ -12,6 +12,16 @@ struct Location {
     let name: String
     let coordinate: CLLocationCoordinate2D?
     
+    var dict: [String : Any] {
+        var dict: [String : Any] = [:]
+        dict["name"] = name
+        if let coordinate = coordinate {
+            dict["latitude"] = coordinate.latitude
+            dict["longitude"] = coordinate.longitude
+        }
+        return dict
+    }
+    
     init(name: String, coordinate: CLLocationCoordinate2D? = nil) {
         self.name = name
         self.coordinate = coordinate
@@ -27,7 +37,7 @@ extension Location {
             let longitude = dict["longitude"] as? Double {
             self.coordinate = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
         } else {
-            self.coordinate = nil
+            self.coordinate = CLLocationCoordinate2D(latitude: 10.0, longitude: 10.0)
         }
     }
 }
