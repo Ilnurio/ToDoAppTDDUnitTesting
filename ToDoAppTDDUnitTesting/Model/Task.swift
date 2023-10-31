@@ -16,13 +16,27 @@ struct Task {
     init(
         title: String,
         description: String? = nil,
-        location: Location? = nil,
-        date: Date? = nil
+        date: Date? = nil,
+        location: Location? = nil
     ) {
         self.title = title
         self.description = description
         self.date = date ?? Date()
         self.location = location
+    }
+}
+
+extension Task {
+    typealias PlistDictionary = [String : Any]
+    init?(dict: PlistDictionary) {
+        self.title = dict["title"] as! String
+        self.description = dict["description"] as? String
+        self.date = dict["date"] as? Date ?? Date()
+        if let locationDictionary = dict["location"] as? [String : Any] {
+            self.location = Location(dict: locationDictionary)
+        } else {
+            self.location = nil
+        }
     }
 }
 

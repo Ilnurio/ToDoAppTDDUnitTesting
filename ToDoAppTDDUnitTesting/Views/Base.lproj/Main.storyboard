@@ -22,26 +22,26 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TaskCell" id="UrR-ib-O6M" customClass="TaskCell" customModule="ToDoAppTDDUnitTesting" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="361" height="43.333332061767578"/>
+                                        <rect key="frame" x="0.0" y="50" width="361" height="43.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UrR-ib-O6M" id="19m-TK-1yf">
-                                            <rect key="frame" x="0.0" y="0.0" width="361" height="43.333332061767578"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="361" height="43.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vei-D0-7To">
-                                                    <rect key="frame" x="20" y="10.999999999999998" width="42" height="21.333333333333329"/>
+                                                    <rect key="frame" x="20" y="11.000000000000002" width="42" height="21.666666666666671"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P7W-k0-IzO">
-                                                    <rect key="frame" x="88" y="10.999999999999998" width="42" height="21.333333333333329"/>
+                                                    <rect key="frame" x="88" y="11.000000000000002" width="42" height="21.666666666666671"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ujf-g5-8gO">
-                                                    <rect key="frame" x="159" y="10.999999999999998" width="42" height="21.333333333333329"/>
+                                                    <rect key="frame" x="159" y="11.000000000000002" width="42" height="21.666666666666671"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -54,7 +54,7 @@
                                                 <constraint firstItem="P7W-k0-IzO" firstAttribute="firstBaseline" secondItem="Ujf-g5-8gO" secondAttribute="firstBaseline" id="Mm3-Jc-LVp"/>
                                                 <constraint firstItem="P7W-k0-IzO" firstAttribute="baseline" secondItem="Vei-D0-7To" secondAttribute="baseline" id="PJb-9g-V5o"/>
                                                 <constraint firstItem="P7W-k0-IzO" firstAttribute="leading" secondItem="19m-TK-1yf" secondAttribute="leading" constant="88" id="Yb5-OQ-A4J"/>
-                                                <constraint firstItem="P7W-k0-IzO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Vei-D0-7To" secondAttribute="trailing" symbolic="YES" id="aEc-7n-f6u"/>
+                                                <constraint firstItem="P7W-k0-IzO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Vei-D0-7To" secondAttribute="trailing" constant="8" symbolic="YES" id="aEc-7n-f6u"/>
                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Ujf-g5-8gO" secondAttribute="trailing" constant="20" symbolic="YES" id="g1i-Ra-rkI"/>
                                                 <constraint firstItem="P7W-k0-IzO" firstAttribute="baseline" secondItem="Ujf-g5-8gO" secondAttribute="baseline" id="obd-Pf-tc5"/>
                                                 <constraint firstItem="P7W-k0-IzO" firstAttribute="firstBaseline" secondItem="Vei-D0-7To" secondAttribute="firstBaseline" id="phr-J1-ztY"/>

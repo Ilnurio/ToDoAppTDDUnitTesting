@@ -53,7 +53,7 @@ final class DetailViewControllerTests: XCTestCase {
         let coordinate = CLLocationCoordinate2D(latitude: 54.74801923, longitude: 56.01103876)
         let location = Location(name: "Baz", coordinate: coordinate)
         let date = Date(timeIntervalSince1970: 1546300800)
-        let task = Task(title: "Foo", description: "Bar", location: location, date: date)
+        let task = Task(title: "Foo", description: "Bar", date: date, location: location)
         
         sut.task = task
         

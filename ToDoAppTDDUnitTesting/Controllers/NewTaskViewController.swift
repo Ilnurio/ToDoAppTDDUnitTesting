@@ -35,8 +35,8 @@ class NewTaskViewController: UIViewController {
             let task = Task(
                 title: titleString!,
                 description: descriptionString,
-                location: location,
-                date: date
+                date: date,
+                location: location
             )
             self.taskManager.add(task: task)
             
