@@ -26,7 +26,7 @@ class TaskListViewController: UIViewController {
         
         NotificationCenter.default.addObserver(
             self,
-            selector: #selector(showDetail(withNotofocation:)),
+            selector: #selector(showDetail(withNotification:)),
             name: NSNotification.Name(rawValue: "DidSelectRow notification"),
             object: nil
         )
@@ -38,7 +38,7 @@ class TaskListViewController: UIViewController {
     }
     
     @objc
-    func showDetail(withNotofocation notification: Notification) {
+    func showDetail(withNotification notification: Notification) {
         guard
             let  userInfo = notification.userInfo,
             let task = userInfo["task"] as? Task,
